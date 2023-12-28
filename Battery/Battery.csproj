@@ -540,6 +540,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Thunderstore\CHANGELOG.md" />
     <Content Include="Thunderstore\icon.png" />
     <Content Include="Thunderstore\manifest.json" />
     <Content Include="Thunderstore\plugins\Battery.dll" />
