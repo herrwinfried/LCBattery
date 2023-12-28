@@ -1,0 +1,9 @@
+{
+	"name": "Battery",
+	"version_number": "1.0.1",
+	"website_url": "https://github.com/herrwinfried/LCBattery",
+	"description": "Insufficient power? No problem!",
+	"dependencies": [
+		"Evaisa-LethalThings-0.8.8"
+	]
+}
