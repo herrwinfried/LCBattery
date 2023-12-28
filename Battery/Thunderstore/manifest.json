@@ -1,9 +1,12 @@
 {
 	"name": "Battery",
-	"version_number": "1.0.1",
+	"version_number": "1.0.2",
 	"website_url": "https://github.com/herrwinfried/LCBattery",
 	"description": "Insufficient power? No problem!",
 	"dependencies": [
-		"Evaisa-LethalThings-0.8.8"
+		"bbepis-BepInExPack-5.4.2113",
+		"Evaisa-LethalThings-0.8.8",
+		"Evaisa-LethalLib-0.9.0",
+		"Evaisa-HookGenPatcher-0.0.5"
 	]
 }
