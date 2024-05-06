@@ -1,10 +1,10 @@
 {
 	"name": "Battery",
-	"version_number": "1.0.3",
+	"version_number": "1.0.4",
 	"website_url": "https://github.com/herrwinfried/LCBattery",
-	"description": "Insufficient power? No problem!",
+	"description": "Is your flashlight running out of battery quickly? Maybe it's time to use longer term batteries.",
 	"dependencies": [
-		"bbepis-BepInExPack-5.4.2113",
+		"BepInEx-BepInExPack-5.4.2100",
 		"Evaisa-LethalThings-0.10.4",
 		"Evaisa-LethalLib-0.15.1",
 		"Evaisa-HookGenPatcher-0.0.5"

@@ -17,3 +17,6 @@ Added CHANGELOG.md
 
 # v1.0.3
 The code has been rewritten.
+
+# v1.0.4
+Changes for Thunderstore. There is no change in mode.
