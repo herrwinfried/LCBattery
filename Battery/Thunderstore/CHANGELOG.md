@@ -14,3 +14,6 @@ This mode Unlimited battery setting, Battery Life allows you to change for the f
 # v1.0.2
 Updated README.md and (Thunderstore)manifest.json
 Added CHANGELOG.md
+
+# v1.0.3
+The code has been rewritten.

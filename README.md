@@ -1,26 +1,19 @@
-# Battery
+<div align="center">
+<img style="weight: 150px; height: 150px;" src="Battery/Thunderstore/icon.png">
+</div>
+<div align="center">
+<h1>Battery</h1>
+<p>Is your flashlight running out of battery quickly? Maybe it's time to use longer term batteries.</p>
+</div>
 
-Insufficient power? No problem!
 
-## Required
+# Development
+[Dotnet](https://dotnet.microsoft.com/) 8.0.204 was used for this project. [netstandard2.1](https://learn.microsoft.com/dotnet/standard/net-standard) was used.
 
-- [BepInEx 5.4.22](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.22)
-- [LethalThings 0.8.8](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/)
-  - [HookGenPatcher 0.0.5](https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/)
-  - [LethalLib 0.8.0](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/)
+1. Copy the `Assembly-CSharp.dll` and `Unity.Netcode.Runtime.dll` files from "../steamapps/common/Lethal Company/Lethal Company_Data/Managed" to the "ManuelPackage/lib" folder in the Project.
+2. Use the `dotnet restore` command
+3. **If the project will be edited via GNU/Linux**, please make sure that the `zip` command is working.
 
-This mode Unlimited battery setting, Battery Life allows you to change for the following products
+# Credits
 
-- FlashLight
-- ProFlashLight
-- LaserPointer
-- WalkieTalkie
-- Jetpack
-- PatcherTool
-- BoomboxItem
-- HandheldRadar **[LethalThings]**
-- HackingTool **[LethalThings]**
-
-## Config
-
-Once you enter the game, you can set products from the `BepInEx/config/dev.herrwinfried.battery.cfg` file that will be created.
+- [LethalCompanyTemplate](https://github.com/LethalCompanyCommunity/LethalCompanyTemplate)

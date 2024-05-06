@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = LCBattery
+build_property.ProjectDir = /home/winfried/source/LCBattery/LCBattery/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

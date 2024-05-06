@@ -1,19 +1,14 @@
-﻿using BepInEx;
+﻿﻿using BepInEx;
 using HarmonyLib;
 using BepInEx.Logging;
 using BepInEx.Configuration;
 namespace Battery
 {
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
-    [BepInDependency("evaisa.lethalthings")]
+    [BepInDependency("evaisa.lethalthings", BepInDependency.DependencyFlags.HardDependency)]
     public class Plugin : BaseUnityPlugin
     {
-
-        private const string ModGuid = PluginInfo.PLUGIN_GUID;
-        private const string ModName = PluginInfo.PLUGIN_NAME;
-        private const string ModVersion = PluginInfo.PLUGIN_VERSION;
-
-        private readonly Harmony _harmony = new Harmony(ModGuid);
+        private readonly Harmony _harmony = new Harmony(PluginInfo.PLUGIN_GUID);
 
         public static Plugin Instance;
 
@@ -24,7 +19,7 @@ namespace Battery
 
             ConfigSettings.Init();
 
-            Log($"Plugin {ModName}-{ModVersion} loaded!");
+            Log($"Plugin {PluginInfo.PLUGIN_NAME}-{PluginInfo.PLUGIN_VERSION} loaded!");
         }
 
         public static void Log(string message) => Instance.Logger.LogInfo(message);

@@ -1,13 +1,12 @@
-﻿using System.Runtime.CompilerServices;
-using HarmonyLib;
+﻿using HarmonyLib;
 using LethalThings.MonoBehaviours;
 
 namespace Battery.Patches
-{
+{   
     [HarmonyPatch(typeof(HandheldRadar))]
     public class HandheldRadarPatch
     {
-        [HarmonyPatch("ItemActivate")]
+        [HarmonyPatch("ItemInteractLeftRight")]
         [HarmonyPrefix]
         private static void ModifyHandheldRadarBatteryUsage(ref HandheldRadar __instance)
         { 

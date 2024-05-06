@@ -1,5 +1,4 @@
-﻿using System.Runtime.CompilerServices;
-using HarmonyLib;
+﻿using HarmonyLib;
 using LethalThings.MonoBehaviours;
 
 namespace Battery.Patches

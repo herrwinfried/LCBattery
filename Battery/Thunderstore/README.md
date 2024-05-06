@@ -1,13 +1,13 @@
 # Battery
 
-Insufficient power? No problem!
+Is your flashlight running out of battery quickly? Maybe it's time to use longer term batteries.
 
-## Required
+# Mods required to work
 
-- [BepInEx 5.4.22](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.22)
-- [LethalThings 0.8.8](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/)
+- [BepInEx 5.4.23](https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23)
+- [LethalThings 0.10.4](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalThings/)
   - [HookGenPatcher 0.0.5](https://thunderstore.io/c/lethal-company/p/Evaisa/HookGenPatcher/)
-  - [LethalLib 0.8.0](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/)
+  - [LethalLib 0.15.1](https://thunderstore.io/c/lethal-company/p/Evaisa/LethalLib/)
 
 This mode Unlimited battery setting, Battery Life allows you to change for the following products
 
