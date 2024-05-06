@@ -1,6 +1,6 @@
 {
 	"name": "Battery",
-	"version_number": "1.0.4",
+	"version_number": "1.0.5",
 	"website_url": "https://github.com/herrwinfried/LCBattery",
 	"description": "Is your flashlight running out of battery quickly? Maybe it's time to use longer term batteries.",
 	"dependencies": [

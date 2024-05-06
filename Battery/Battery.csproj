@@ -4,7 +4,7 @@
         <TargetFramework>netstandard2.1</TargetFramework>
         <AssemblyName>Battery</AssemblyName>
         <Description>Is your flashlight running out of battery quickly? Maybe it's time to use longer term batteries.</Description>
-        <Version>1.0.3</Version>
+        <Version>1.0.5</Version>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
         <LangVersion>latest</LangVersion>
     </PropertyGroup>
